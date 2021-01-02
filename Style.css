@@ -1,0 +1,50 @@
+body{
+	font-family: PT Sans;
+}
+
+#header-info{
+	display: grid;
+	grid-template-columns: auto;
+	background-color: #000;
+	height: 44px;
+}
+
+div img{
+position: absolute;
+left: 288px;
+top: 22px;
+}
+
+header div p{
+	font-family: PT Sans;
+	font-size: 12px;
+	color: #969696;
+	position: absolute;
+	left: 319px;
+	top: 10px;
+}
+
+.button{
+	position: absolute;
+	left: 800px;
+	top: 10px;
+}
+
+.button p a{
+	text-decoration: none;
+	color: #969696;
+}
+
+nav{
+	display: grid;
+	grid-template-columns: repeat(6, auto);
+	height: 80px;
+	background: #0F0F0F;
+}
+
+nav img{
+	position: absolute;
+	left: 288px;
+	top: 78px;
+}
+
