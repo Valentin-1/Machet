@@ -79,7 +79,7 @@ nav ul li a{
 #container-info{
 	background-image: url(Images/img1-v2.png);
 	background-repeat: no-repeat;
-	height: 610px;
+	height: 576px;
 	z-index: -1;
 }
 
@@ -118,8 +118,8 @@ h4{
 	position: absolute;
 	left: 340px;
 	top: 600px;
-	width: 730px;
-	font-size: 16px;
+	width: 640px;
+	font-size: 14px;
 	text-align: center;
 	text-transform: uppercase;
 	color: #FFFFFF;
@@ -127,8 +127,122 @@ h4{
 
 #section-new-content{
 	display: grid;
-	grid-template-columns: repeat(2,700 592);
-	height: 400px;
-	background: #000000;
-	border: 1px solid red;
+	grid-template-columns: repeat(2, 733px 600px);
+	grid-template-areas: 
+	"container-product catalog";
+	height: 430px;
 }
+
+.container-product{
+	background-color: #000;
+}
+
+h3{
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 44px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.product-1{
+	width: 170px;
+	height: 200px;
+	margin-left: 40px;
+	background-color: #191B1C;
+}
+
+.product-2{
+	position: absolute;
+	top: 818px;
+	left: 275px;
+	width: 170px;
+	height: 200px;
+	background-color: #191B1C;
+}
+
+.product-3{
+	position: absolute;
+	top: 818px;
+	left: 500px;
+	width: 170px;
+	height: 200px;
+	background-color: #191B1C;
+}
+
+
+.img-product-1{
+	position: absolute;
+	top: 865px;
+	left: 80px;
+}
+
+.img-product-2{
+	position: absolute;
+	top: 45px;
+	left: 35px;
+}
+
+.img-product-3{
+	position: absolute;
+	top: 45px;
+	left: 35px;
+}
+
+.text-priece-1{
+	margin-left: 40px;
+	font-size: 14px;
+	line-height: 18px;
+	color: #fff;
+}
+
+.text-priece-2{
+	margin-left: 140px;
+	font-size: 14px;
+	line-height: 18px;
+	color: #fff;
+}
+
+.text-priece-3{
+	margin-top: 10px;
+	margin-left: 340px;
+	font-size: 14px;
+	line-height: 18px;
+	color: #fff;
+}
+
+.catalog{
+	background-image: url(Images/img2.png);
+	background-repeat: no-repeat;
+}
+
+.catalog p{
+	font-weight: bold;
+	font-size: 32px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-top: 200px;
+}
+
+.line-3{
+	border: 1px solid #fff;
+	width: 120px;
+	margin-left: 240px;
+}
+
+.button-catalog{
+	border: 1px solid #fff;
+	position: absolute;
+	top: 1010px;
+	left: 980px;
+	padding: 12px 28px;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+
