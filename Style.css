@@ -392,7 +392,6 @@ h3{
 footer{
 	display: grid;
 	grid-template-rows: 120px;
-	height: 230px;
 	background-color: #0F0F0F;
 }
 
@@ -405,13 +404,14 @@ footer{
 
 .line-6{
 	width: 100px;
-	margin-left: 610px;
+	margin: auto;
 	border: 1px solid #fff;
 }
 
 .container-brend{
 	display: grid;
 	grid-template-columns: repeat(4, 177px);
+	height: 130px;
 	grid-gap: 30px;
 	margin-left: 270px;
 }
@@ -434,4 +434,69 @@ footer{
 .icon-brend-4{
 	background-image: url(Images/Brend.png);
 	background-repeat: no-repeat;
+}
+
+.contacts{
+	display: grid;
+	grid-template-columns: repeat(3, 360px);
+	height: 280px;
+	background-image: url(Images/img4.png);
+}
+
+.info-magasine p{
+	margin-left: 20px;
+	color: #fff;
+}
+
+.info-magasine p:nth-child(1){
+	font-size: 24px;
+	line-height: 32px;
+}
+
+.info-magasine p:nth-child(2){
+font-size: 12px;
+line-height: 150%;
+}
+
+.category-blocks p{
+	font-size: 24px;
+	line-height: 28px;
+	margin-left: 10px;
+	color: #fff;
+}
+
+.category-block-flex {
+	display: flex;
+	max-width:380px;
+	flex-wrap:wrap;
+}
+
+.category-block {
+	background-color: #1a1716;
+	color: white;
+	padding: 10px 20px;
+	margin: 10px;
+}
+
+.title-mailing{
+	font-size: 24px;
+	color: #FFFFFF;
+}
+
+.text-block{
+	font-size: 12px;
+	line-height: 150%;
+	color: #fff;
+}
+
+.container-bottom{
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	height: 32px;
+}
+
+.block-email{
+	background: rgba(255, 255, 255, 0.4);
+	width: 250px;
+
 }
