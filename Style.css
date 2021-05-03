@@ -436,15 +436,19 @@ footer{
 	background-repeat: no-repeat;
 }
 
+.container-contacts{
+	background-image: url(Images/img4.png);
+}
+
 .contacts{
 	display: grid;
 	grid-template-columns: repeat(3, 360px);
 	height: 280px;
-	background-image: url(Images/img4.png);
+	margin-left: 115px;
+	align-content: center;
 }
 
 .info-magasine p{
-	margin-left: 20px;
 	color: #fff;
 }
 
@@ -492,11 +496,38 @@ line-height: 150%;
 .container-bottom{
 	display: grid;
 	grid-template-columns: repeat(2, auto);
-	height: 32px;
 }
 
 .block-email{
 	background: rgba(255, 255, 255, 0.4);
-	width: 250px;
+	width: 240px;
+	height: 40px;
+}
 
+.block-email p{
+	margin-top: 9px;
+	color: #969696;
+}
+
+.subscribe{
+	background: #0F0F0F;
+	width: 120px;
+	height: 40px;
+}
+
+.subscribe p{
+	margin-top: 9px;
+	text-align: center;
+	color: #fff;
+}
+
+.bottom-footer{
+	background: #0F0F0F;
+	height: 50px;
+}
+
+.bottom-footer p{
+	font-size: 14px;
+	margin-left: 115px;
+	color: #fff;
 }
