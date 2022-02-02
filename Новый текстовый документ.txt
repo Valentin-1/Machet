@@ -1,0 +1,38 @@
+.title{
+	margin-top: 25px;
+	font-size: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.line-5{
+	width: 100px;
+	margin-left: 610px;
+	border: 1px solid #fff;
+}
+
+
+
+background:linear-gradient(to bottom, #191B1C 80%, black 20%);
+
+.container-brend{
+	display: grid;
+	grid-template-columns: repeat(4, auto);
+	grid-gap: 10px;
+	margin-left: 50px;
+	height: 250px;
+}
+
+.title-brend p{
+	font-size: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.line-6{
+	width: 100px;
+	margin-left: 610px;
+	border: 1px solid #fff;
+}
